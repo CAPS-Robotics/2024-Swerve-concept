@@ -16,4 +16,4 @@ red(Rio) Orange(Motor Controller)
 
 ![Screen Shot 2024-01-27 at 10 44 06 AM](https://github.com/CAPS-Robotics/Swerve-concept/assets/71975550/9cc2d907-8ca7-4037-8dd7-bb406d848ebf)
 
-* - `swerveMath.py` contains raw equations, Wpilib/Rev has abstractions
+*`swerveMath.py` contains raw equations, Wpilib/Rev has abstractions
