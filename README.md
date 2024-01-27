@@ -1,2 +1,16 @@
 # Swerve-concept
-Describing Swerve functionality, mockup math
+
+## process
+ - Roborio starts with the inital values on start, along with the xbox values
+ - sends the values to the motor
+ - the encoders and sensors give the motor controllers nesc. values
+ - The motor controllers (All at the same time, paralell), do the swerve math, (look at `swerveMath.py`) move motors
+ - Roborio constantly broadcasts Xbox values, motors move
+
+**Imp. Note**: The motors don't need to complete a movement to do the next movement, they move whenever they recieve an xbox value
+
+<br><br><br><br><br>
+
+red(Rio) Orange(Motor Controller)
+
+![Screen Shot 2024-01-27 at 10 44 06 AM](https://github.com/CAPS-Robotics/Swerve-concept/assets/71975550/9cc2d907-8ca7-4037-8dd7-bb406d848ebf)
